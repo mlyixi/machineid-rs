@@ -14,7 +14,7 @@ version = "1.2.1"
 [dependencies]
 hex = "0.4.3"
 rust-crypto = "0.2.36"
-serde = "1.0.136"
+serde = {version = "1.0", features = ["derive"]}
 serde_json = "1.0.79"
 sysinfo = "0.23.5"
 uuid = {version = "0.8.2", features = ["v4"]}
